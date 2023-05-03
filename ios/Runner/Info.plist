@@ -2,18 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+  	<string>sms</string>
+ 	<string>tel</string>
+	</array>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Authenticate by using face id</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Access Camera To Test Vision</string>	
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Access Mic To Test Hearing</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Ability Consultancy</string>
+	<string>Xplore DisAbility</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.abilityConsultant.abilityconsultant</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ability_consultancy</string>
+	<string>Xplore DisAbility</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -44,6 +55,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 </dict>
 </plist>
